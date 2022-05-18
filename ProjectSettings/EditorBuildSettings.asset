@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/MyScenes/CubeGrabingTest.unity
+    guid: 205fc22684a74e34c96a8211f9cb339b
+  - enabled: 0
+    path: Assets/MyScenes/testCube.unity
+    guid: 7aaae2f34cf5e4b4b98b12fb046346e0
+  - enabled: 0
+    path: Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandInteractionExamples.unity
+    guid: 3dd4a396b5225f8469b9a1eb608bfa57
+  - enabled: 1
+    path: Assets/MyScenes/GameTest1.unity
+    guid: 9d8c0169b1e38fc44bbb814b0db6d850
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5c6c5eec505442c43b826a6cbffdca31, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6fd89a8a58a4b554ba129c7fed158cd6, type: 2}

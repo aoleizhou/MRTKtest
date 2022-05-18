@@ -1,0 +1,170 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp D:/Projects/Unity/MRTKtest/Library/Il2cppBuildCache/UWP/x64/il2cppOutput/Data/Metadata/global-metadata.dat",
+      "Action": "D:\\Software\\Unity\\Hub\\Editor\\2020.3.15f2\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --incremental-g-c-time-slice=3 --baselib-directory=\"Temp\\StagingArea\\Il2CppOutputProject\\IL2CPP\\build\\baselib\\x64\\Release\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=D:/Software/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Tools/MapFileParser/MapFileParser.exe --directory=D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed --generatedcppdir=D:/Projects/Unity/MRTKtest/Library/Il2cppBuildCache/UWP/x64/il2cppOutput",
+      "Inputs": [
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/I18N.CJK.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/I18N.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/I18N.MidEast.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/I18N.Other.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/I18N.Rare.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/I18N.West.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.OpenXR.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Async.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Gltf.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.SDK.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSystem.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/System.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/System.Numerics.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/System.Numerics.Vectors.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/System.ObjectModel.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/System.Runtime.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/System.Runtime.WindowsRuntime.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/System.Runtime.WindowsRuntime.UI.Xaml.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Unity.InputSystem.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.ImageConversionModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "D:/Projects/Unity/MRTKtest/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll"
+      ],
+      "Outputs": [
+        "D:/Projects/Unity/MRTKtest/Library/Il2cppBuildCache/UWP/x64/il2cppOutput/Data/Metadata/global-metadata.dat"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
