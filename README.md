@@ -3,7 +3,7 @@ SUSTech 2022 多媒体课程project
 
 前端：zal，zcz，leh；后段：zyq，zz
 
-### Introduction
+## Introduction
 
 这是一个基于MRTK Hololens的骨科手术AR模拟平台。基于Hololens，我们设计了如下功能：
 
@@ -24,7 +24,7 @@ SUSTech 2022 多媒体课程project
 
 ![](img/real.png)
 
-### Configuration
+## Configuration and Build
 
 #### Hololens下载与环境配置
 
@@ -38,11 +38,12 @@ SUSTech 2022 多媒体课程project
 
 #### 生成并运行
 
-1. 打开Unity进入项目。
+1. 打开Unity进入项目，打开Asset>MyScene>GameTest1场景。
+2. 点击File>Build and Settings, 配置好后，在新建文件夹里生成场景
 
-1. 要新建文件夹里Unity build，生成完成后进入文件夹，用VS打开.sln文件
+![](img/Unity_build_settings.png)
 
-2. 在VS里调整这三项设置好：
+3. 生成完成后进入文件夹，用VS打开.sln文件，在VS里调整这三项设置好：
 
 ![](img\VS_basic.png)
 
@@ -52,11 +53,50 @@ SUSTech 2022 多媒体课程project
 
 ![](img\pair.png)
 
-### Front-end structure
+## Front-end structure
 
+#### Unity和MRTK相关学习资料
 
+1. Unity C# 脚本入门级教程：https://www.youtube.com/watch?v=9tMvzrqBUP8
+2. 教怎么设置button，并关联点击事件的视频：https://www.youtube.com/watch?v=kdkrjCF0KCo （里面涉及如何关联Scene的物体到脚本中变成实例的方法）
+3. 非常nice的MRTK教程，有空可以看看：https://www.youtube.com/watch?v=-CPQf1V65ss
 
-### 动图示意
+#### 前端框架
 
-（zaz这里放gif）
+![](img\front_end_structure.png)
 
+如上所示，我们的前端分为这几个部分：
+
++ MRTK自带模块(前三个)
+  + Directional Light
+  + MixedReality ToolKit
+  + MixedRealityPlaySpace：AR相机
++ 前方大屏幕：SceneDescriptionPanelRev
++ 左方的键盘交互按钮：MixedRealitySceneContent
+  + OperationPane: 选择模式下的panel，包含[复制粘贴，删除，绑定，退出]按钮
+  + SelectionPane：操作模式下的panel，包含[选择，绑定]按钮
++ 切换控制：SwitchControl，负责切换场景
+  + 包含大屏幕两边（切换场景的）按钮：switchBtn
++ 骨骼模型：Models，存放了4个场景的骨骼模型
++ 选择控制：SelectionControl，负责控制选择模式下的功能
++ 音频：Audio，存放指示音频
+
+#### 放大缩小旋转功能实现
+
+利用MRTK自带的API，我们可以在想要控制的模型上面添加如下script：
+
+![](img\MRTK_API.png)
+
+#### 按钮模型
+
+来源于 Asset>MRTK>Examples>Demos>HandTracking>Scenes>HandInteractionExamples
+
+#### 选中与绑定功能实现
+
+(Zcz, leh填一下)
+
+## Back-end structure
+
+## Result Display
+
+（zcz这里放gif）
