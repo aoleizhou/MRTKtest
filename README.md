@@ -20,7 +20,7 @@ SUSTech 2022 多媒体课程project
   + 骨裂修复
   + 健康骨骼与亚健康骨骼对比示意
 
-![](img\simulate.png)
+![](img/simulate.png)
 
 ![](img/real.png)
 
@@ -45,13 +45,13 @@ SUSTech 2022 多媒体课程project
 
 3. 生成完成后进入文件夹，用VS打开.sln文件，在VS里调整这三项设置好：
 
-![](img\VS_basic.png)
+![](img/VS_basic.png)
 
 3. PC和Hololens均配置为developer mode （参考：https://docs.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-visual-studio?tabs=hl2）后点击run。
 
 4. PC第一次连接Hololens，运行之后会弹出配对（Pair对话框）：
 
-![](img\pair.png)
+![](img/pair.png)
 
 ## Front-end structure
 
@@ -63,7 +63,7 @@ SUSTech 2022 多媒体课程project
 
 #### 前端框架
 
-![](img\front_end_structure.png)
+![](img/front_end_structure.png)
 
 如上所示，我们的前端分为这几个部分：
 
@@ -85,7 +85,7 @@ SUSTech 2022 多媒体课程project
 
 利用MRTK自带的API，我们可以在想要控制的模型上面添加如下script：
 
-![](img\MRTK_API.png)
+![](img/MRTK_API.png)
 
 #### 按钮模型
 
